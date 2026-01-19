@@ -5,8 +5,19 @@
 ![Python](https://img.shields.io/badge/python-3.12+-blue.svg)
 ![Agentic](https://img.shields.io/badge/architecture-agentic-blueviolet.svg)
 ![AI](https://img.shields.io/badge/model-gemini--2.0--flash-orange.svg)
+![MVP](https://img.shields.io/badge/readiness-mvp-yellow.svg)
 
 > **"The Hands" of the Operation.** An autonomous agent that translates natural language commands into safe, deterministic Python function calls using a Human-in-the-Loop (HITL) approval workflow.
+
+## Production Readiness
+
+**Level: MVP**
+
+This system demonstrates production-focused agentic AI architecture with:
+- **Reasoning-action separation** pattern preventing unauthorized executions
+- **Human-in-the-Loop (HITL) approval gate** requiring explicit authorization
+- **Deterministic function calling** from pre-defined toolbelt
+- **Persistent session state** for reliable approval gate management
 
 ## ⚡ The Problem: The "Rogue Agent" Fear
 Enterprises are hesitant to deploy GenAI for operations because they fear an LLM will hallucinate a command like `delete database`. Chatbots are useful for *advice*, but dangerous for *action*.
@@ -108,6 +119,21 @@ pytest tests/
 pytest tests/ -v
 ```
 
+## Notable Code
+
+This repository demonstrates sophisticated agentic AI safety patterns. See [NOTABLE_CODE.md](NOTABLE_CODE.md) for detailed code examples highlighting:
+
+- Reasoning-action separation implementation
+- Approval gate with persistent session state
+- Deterministic function calling pattern
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+
+**Adityo Nugroho**  
+- Portfolio: https://adityonugrohoid.github.io  
+- GitHub: https://github.com/adityonugrohoid  
+- LinkedIn: https://www.linkedin.com/in/adityonugrohoid/
