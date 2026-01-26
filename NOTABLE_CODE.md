@@ -1,7 +1,5 @@
 # Notable Code: Net-Ops Agent
 
-**Production Readiness Level:** MVP
-
 This document highlights key code sections that demonstrate the technical strengths and architectural patterns implemented in this agentic AI system.
 
 ## Overview

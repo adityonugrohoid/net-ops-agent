@@ -1,23 +1,13 @@
 # Net-Ops Executor: Agentic AI with Safety Guardrails
 
-> 🔺 **Part of the [TRINITY Project](../README.md)** - An end-to-end AI-powered Network Operations Suite
-
 ![Python](https://img.shields.io/badge/python-3.12+-blue.svg)
 ![Agentic](https://img.shields.io/badge/architecture-agentic-blueviolet.svg)
 ![AI](https://img.shields.io/badge/model-gemini--2.0--flash-orange.svg)
-![MVP](https://img.shields.io/badge/readiness-mvp-yellow.svg)
+![TRINITYProject](https://img.shields.io/badge/project-TRINITY-blueviolet.svg)
 
-> **"The Hands" of the Operation.** An autonomous agent that translates natural language commands into safe, deterministic Python function calls using a Human-in-the-Loop (HITL) approval workflow.
+**"The Hands" of the Operation.** An autonomous agent that translates natural language commands into safe, deterministic Python function calls using a Human-in-the-Loop (HITL) approval workflow.
 
-## Production Readiness
-
-**Level: MVP**
-
-This system demonstrates production-focused agentic AI architecture with:
-- **Reasoning-action separation** pattern preventing unauthorized executions
-- **Human-in-the-Loop (HITL) approval gate** requiring explicit authorization
-- **Deterministic function calling** from pre-defined toolbelt
-- **Persistent session state** for reliable approval gate management
+> 🔗 **Part of the TRINITY Project** | An end-to-end AI-powered Network Operations Suite
 
 ## ⚡ The Problem: The "Rogue Agent" Fear
 Enterprises are hesitant to deploy GenAI for operations because they fear an LLM will hallucinate a command like `delete database`. Chatbots are useful for *advice*, but dangerous for *action*.
