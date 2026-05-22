@@ -2,7 +2,10 @@
 
 # Net-Ops Agent
 
-[![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
+[![Python 3.12+](https://img.shields.io/badge/python-3.12%2B-blue.svg)](https://www.python.org/downloads/)
+[![uv](https://img.shields.io/badge/uv-package%20manager-blueviolet)](https://github.com/astral-sh/uv)
+[![Gemini 2.0 Flash](https://img.shields.io/badge/Gemini-2.0%20Flash-4285F4.svg)](https://ai.google.dev/gemini-api/docs/models)
+[![Streamlit](https://img.shields.io/badge/Streamlit-app-FF4B4B.svg)](https://streamlit.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 **Agentic network-ops assistant powered by Gemini 2.0 Flash with mandatory human approval before any action executes**
@@ -217,8 +220,8 @@ The test suite covers tool call inference (including parameter inference from na
 
 | Project | Description |
 |---------|-------------|
-| [incident-commander](https://github.com/adityonugrohoid/incident-commander) | Incident triage and command coordination layer in the TRINITY Network Ops Suite |
-| [noc-oracle](https://github.com/adityonugrohoid/noc-oracle) | Read-only observability and query layer in the TRINITY Network Ops Suite |
+| [incident-commander](https://github.com/adityonugrohoid/incident-commander) | Async log analyzer batching noisy error streams into structured incident reports (Gemini 2.0 Flash Lite) |
+| [noc-oracle](https://github.com/adityonugrohoid/noc-oracle) | Runbook RAG engine mapping error codes to verified procedures (hybrid search + Gemini 2.0 Flash) |
 
 ## License
 
